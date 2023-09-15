@@ -1,0 +1,17 @@
+.todo-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete {
+    background-color: #ff5252;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
